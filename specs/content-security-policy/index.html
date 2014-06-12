@@ -651,7 +651,7 @@ Content-Security-Policy: <a data-link-type=dfn href=#connect-src title=connect-s
 <p><em>This section is not normative.</em></p>
 
 <p>Policies are associated with an <a data-link-type=dfn href=#protected-resource title="protected resource">protected resource</a>, and
-    <a data-link-type=dfn href=#enforce title=enforce>enforced</a> or <a data-link-type=dfn href=#monitor title=monitored>monitored</a> for for that resource.
+    <a data-link-type=dfn href=#enforce title=enforce>enforced</a> or <a data-link-type=dfn href=#monitor title=monitored>monitored</a> for that resource.
     If a resource does not create a new execution context (for example, when
     including a script, image, or stylesheet into a document), then any policies
     delivered with that resource are discarded without effect. Its execution is
@@ -992,7 +992,7 @@ Content-Security-Policy: <a data-link-type=dfn href=#connect-src title=connect-s
                 match</em>.</li>
 
                 <li>If the final character of <var>decoded-path</var> is
-                not the the U+002F SOLIDUS character (<code>/</code>),
+                not the U+002F SOLIDUS character (<code>/</code>),
                 and <var>decoded-path</var> is not an exact match for
                 <var>uri-path</var> then return <em>does not
                 match</em>.</li>
@@ -1532,14 +1532,14 @@ Content-Security-Policy: <a data-link-type=dfn href=#connect-src title=connect-s
   <section>
     <h3 class="heading settled heading" data-level=5.2 id=processing-model-iframe-srcdoc><span class=secno>5.2 </span><span class=content><code>srcdoc</code> IFrames</span><a class=self-link href=#processing-model-iframe-srcdoc></a></h3>
 
-<p>Whenever a user agent creates an <a data-link-spec=HTML5 data-link-type=dfn href=http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#an-iframe-srcdoc-document title="an iframe srcdoc document">an <code>iframe</code>
+<p>Whenever a user agent creates <a data-link-spec=HTML5 data-link-type=dfn href=http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#an-iframe-srcdoc-document title="an iframe srcdoc document">an <code>iframe</code>
     <code>srcdoc</code> document</a> in a browsing context nested in the
     protected resource, if the user agent is <a data-link-type=dfn href=#enforce title=enforcing>enforcing</a> any <a data-link-type=dfn href=#security-policy title=policies>policies</a>
     for the protected resource, the user agent MUST <a data-link-type=dfn href=#enforce title=enforce>enforce</a> those
     <a data-link-type=dfn href=#security-policy title=policies>policies</a> on the <code><a data-link-type=element href=http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#the-iframe-element title=iframe>iframe</a></code>
     <code>srcdoc</code> document as well.</p>
 
-<p>Whenever a user agent creates a <a data-link-spec=HTML5 data-link-type=dfn href=http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#an-iframe-srcdoc-document title="an iframe srcdoc document">an <code>iframe</code>
+<p>Whenever a user agent creates <a data-link-spec=HTML5 data-link-type=dfn href=http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#an-iframe-srcdoc-document title="an iframe srcdoc document">an <code>iframe</code>
     <code>srcdoc</code> document</a> in a browsing context nested in the
     protected resource, if the user agent is monitoring any policies for the
     protected resource, the user agent MUST <a data-link-type=dfn href=#monitor title=monitor>monitor</a> those policies on
